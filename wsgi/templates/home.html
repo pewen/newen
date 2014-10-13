@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	<div class="container center">
+		<h1> Analizando los Vientos </h1>
+
+		<h3> <strong> Vientos </strong> es una herramienta gratuita en estado Omega para el analisis de los vientos. </h3>
+	</div>
+
+	<div class="funcionamiento center">
+		<h1> Como Funciona </h1>
+		<h3> La idea es que lo pueda usar cualquier persona que quiera analizar el viento para poder poner su pequeño molino. </h3>
+	</div>
+	
+	<div class="ejemplo center">
+		<h1> Ejemplo </h1>
+		<h3> Descarga <a href="{{ url_for('get_file') }}"><strong>este </strong></a>ejemplo y anda a <a href="{{ url_for('analisis') }}"><strong>analisis</analisis></a>   para proba como funciona la herramienta! <h3>
+	</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  	<meta charset="utf-8">
+    <title>Vientos</title>	
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  
+  <body>
+
+		<header class="container">
+		
+			<h1 class="logo"><strong> Vientos </strong></h1>
+			
+			<nav class="nav primary-nav">
+        <a class="primary-a" href="{{ url_for('home') }}"><strong> Inicio </strong></a>
+        <a class="primary-a" href="{{ url_for('analisis') }}"><strong> Analisis </strong></a>
+        <a class="primary-a" href="{{ url_for('home') }}"><strong> Wiki </strong></a>
+      </nav>
+			
+		</header>
+		
+
+    {% block content %}
+		{% endblock %}
+
+		
+		<footer class="primary-footer container">
+  		<p>&copy; Grupo <a href="https://pewen.github.io">Pewen</a></p>
+		</footer>
+		
+	</body>
+</html>

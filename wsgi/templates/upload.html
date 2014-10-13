@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	<head>
+	</head>
+	
+	<body>
+
+		<div class="container center">
+			<form action="/analisis" method="post" enctype="multipart/form-data">
+				<fieldset>
+			
+					<legend>Subir Datos</legend>
+
+		      <label>
+		      	<strong> Archivo </strong>
+		      </label>
+		      <input type="file" name="file" placeholder=".csv">
+		      
+		      <button class="btn">
+		      	<strong> Subir! </strong>
+		      </button>
+
+		  	</fieldset>
+			</form>
+		</div>
+	
+	</body>
+
+{% endblock %}
