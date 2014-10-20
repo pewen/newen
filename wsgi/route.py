@@ -19,6 +19,10 @@ path = os.getcwd() + '/wsgi/'
 def home():
   return render_template('home.html')
 
+@app.route('/contacto')
+def contacto():
+  return render_template('contacto.html')
+
 @app.route("/get_file")
 def get_file():
     f = open(path + 'data/datos3.csv', 'r')
