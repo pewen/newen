@@ -1,7 +1,7 @@
-Vientos
+Newén
 =======
 
-Aplicación web combinando Python, R y JS para el analisis de los vientos.
+Aplicación web, en estado Alfa, combinando Python, R y JS para el analisis de los vientos.
 
 IPython notebook, Analisis del viento:
 --------------------------------------

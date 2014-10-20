@@ -11,6 +11,7 @@ body {
 
 header {
 	background: #293f50;
+	background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
   padding: 5px 10px;
 	height: 70px;
 	color: #ffffff;
@@ -21,7 +22,7 @@ div {
 	background: #ffffff;
 }
 
-.container, .funcionamiento, .ejemplo{
+.container, .azul, .gris {
 	padding-left: 15%;
 	padding-right: 15%;
 	margin: 0 auto;
@@ -148,6 +149,7 @@ h5 {
 
 .primary-footer {
 	background: #293f50;
+	background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
 	color: #ffffff;
   font-size: 20px;
   padding-bottom: 44px;
@@ -195,11 +197,12 @@ h5 {
 	padding-bottom: 35px;
 }
 
-.funcionamiento {	
-	background-color: #ecf0f1;
+.azul {
+	background-color: #293f50;
+	color: #fff;
 }
 
-.ejemplo {
-	background-color: #24221f;
-	color: #fff;
+.gris {
+	padding: 1px 0;
+	background-color: #ecf0f1;
 }

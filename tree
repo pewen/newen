@@ -1,0 +1,24 @@
+Newén
+|-->wsgi
+|   |-->__init__.py
+|   |-->route.py
+|   |-->estadistica.py
+|		|-->application
+|   |-->static
+|   |   |-->css
+|		|		|		|-->main.css
+|		|		|		|-->normalize.css
+|   |		|-->js
+|		|		|-->img
+|		|-->templates
+|		|		|-->layout.html
+|		|		|-->home.html
+|		|		| ...
+|		|-->data
+|-->runserver.py
+|-->setup.py
+|-->IPython_notebook
+|-->LICENSE
+|-->README.md
+|-->TODO.md
+|-->tree
