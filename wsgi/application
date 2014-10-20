@@ -18,5 +18,7 @@ try:
 except IOError:
         pass
 
-from route import app as application
+sys.path.append('../')
+
+from runserver import app as application
 
